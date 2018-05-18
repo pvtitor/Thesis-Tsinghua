@@ -1,6 +1,7 @@
 # Thesis-Tsinghua
 
 ### Development of a Machine Learning Algorithm to compare RAMS Standards Documents ###
+
 =======================================================
 
 This project contains the main codes implemented (with python) for my master thesis at Tsinghua University (Beijing).
@@ -19,6 +20,7 @@ My model provides already promising results, similar to the state of the art tec
 Performances achieved:
 - Accuracy  = 74.4%
 - F-score   = 82.2%
+
 =======================================================
 
 ### Feature Extraction ###
@@ -29,6 +31,7 @@ It can be improved in several ways:
 - improving the features themselves (for example making the the lexical features more performant by already taking into account some syntactic elements)
 - changing the way of calculation of the similarity between a pair of sentences for the already implemented features
 - adding some new features that will bring along new understanding of the pairs of sentences (for instance *word alignment*, *cardinal attribute*, or other semantic feature that will compare the meaning of groups of words directly).
+
 =======================================================
 
 ### Spot-Check Classifiers ###
@@ -42,6 +45,7 @@ This code aims to quickly review the main machine learning classifiers (linear a
 - Support Vector Machine
 
 It turns out that the MaxEnt and the SVM algorithms perform best on my model with this dataset.
+
 =======================================================
 
 ### SVM Classifier ###
